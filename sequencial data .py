@@ -1,0 +1,14 @@
+n=int(input('enter numbers of terms:'))
+a1=1
+d1=1
+s1=(n/2)*(2*a1+(n-1)*d1)
+a2=1
+d2=2
+s2=(n/2)*(2*a2+(n-1)*d2)
+a3=2
+d3=2
+s3=(n/2)*(2*a3+(n-1)*d3)
+a4=35
+d4=7
+s4=(n/2)*(2*a4+(n-1)*d4)
+print(s1,s2,s3,s4,sep='\n')
